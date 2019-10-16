@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body{
+            width: 100%;
+            height :100%;
+            margin: 0;
+            padding: 0;
+           
+        }
+        body{
+            background: rgb(184, 176, 176);
+        }
+     
+       
+        ul{
+            position: absolute;
+            margin: 0;
+            list-style:none;
+            background: rgb(22, 160, 133);
+            margin-top: 0%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            
+            padding-left: 0;
+            font-size: 18px;
+           
+           
+           
+        }
+        li{
+            padding: 0px 50px; 
+            text-align: center;
+        
+          
+         
+            position: relative;
+           
+        }
+        li li{
+            border-bottom: rgb(117, 117, 117);
+            border-bottom-style: solid;
+        }
+        li:hover{
+            background: rgba(128, 128, 128, 0.253);
+          
+        }
+        li:hover >li{
+            color: black;
+        }
+        ul ul{
+            display: none;
+            position: absolute;
+            padding:0;
+            left:100%;
+            top: 80%;
+         
+            text-align: center;
+            background: rgb(88, 97, 97);
+            width: 100%;
+            border-style: solid;
+            margin-top: -20%;
+            border-radius: 5%;
+            
+          
+        }
+      
+        ul> li:hover{
+           
+         
+            background: rgba(88, 97, 97,0.396);
+            font: 30px;
+            color: white;
+            border-color: black;
+        }
+        ul> li:hover >ul>li{
+           
+       color: black;
+         
+       }
+        ul> li>ul>li:hover{
+           
+          color: white;
+           background: rgba(22, 160, 133, 0.396);
+           font: 30px;
+       }
+        li:hover > ul {
+            display: block;
+            font:black;
+             }
+        ul ul ul
+        {
+            position: absolute;
+            top: 100%
+
+        }     
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>1-1 
+                <hr>
+                <ul>
+                    <li>2-1
+                        <ul>
+                            <li>3-1</li>
+                            
+                            <li>3-2</li>
+                            <li>3-3</li>
+                            <li>3-4</li>
+                            <li>3-5</li>
+                        </ul>
+                    </li>
+                    <li>2-2
+                           
+                            <ul>
+                                    <li>3-1</li>
+                                    <li>3-2</li>
+                                    <li>3-3</li>
+                                    <li>3-4</li>
+                                    <li>3-5</li>
+                                </ul>
+                    </li>
+                    <li>2-3</li>
+                    <li>2-4
+                            <ul>
+                                    <li>3-1</li>
+                                    <li>3-2</li>
+                                    <li>3-3</li>
+                                    <li>3-4</li>
+                                    <li>3-5</li>
+                                </ul>
+                    </li>
+                    <li>2-5</li>
+                </ul>
+            </li>
+            <li>1-2
+                    <hr>
+                    <ul>
+                            <li>2-1 
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                            <li>2-2
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                            <li>2-3
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                        
+                        </ul>
+            </li>
+            <li>1-3
+                    <hr>
+                    <ul>
+                            <li>2-1</li>
+                            <li>2-2</li>
+                            <li>2-3</li>
+                            <li>2-4
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2
+                                                    <ul>
+                                                            <li>3-1</li>
+                                                            <li>3-2</li>
+                                                            <li>3-3</li>
+                                                            <li>3-4</li>
+                                                            <li>3-5</li>
+                                                        </ul>
+                                            </li>
+                                            <li>3-3</li>
+                                            <li>3-4
+                                                    <ul>
+                                                            <li>3-1</li>
+                                                            <li>3-2</li>
+                                                            <li>3-3</li>
+                                                            <li>3-4</li>
+                                                            <li>3-5</li>
+                                                        </ul>
+                                            </li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                        
+                        </ul>
+            </li>
+            <li>1-4
+                    <hr>
+                    <ul>
+                            <li>2-1</li>
+                            <li>2-2</li>
+                            <li>2-3</li>
+                            <li>2-4</li>
+                        
+                        </ul>
+            </li>
+            <li>1-5
+                    <hr>
+                    <ul>
+                            <li>2-1</li>
+                            <li>2-2</li>
+                            <li>2-3</li>
+                            <li>2-4</li>
+                            <li>2-5</li>
+                        
+                        </ul>
+            </li>
+            <li>1-6
+                <hr>
+                    <ul>
+                            <li>2-1
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                            <li>2-2</li>
+                            <li>2-3
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                            <li>2-4
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                            <li>2-5
+                                    <ul>
+                                            <li>3-1</li>
+                                            <li>3-2</li>
+                                            <li>3-3</li>
+                                            <li>3-4</li>
+                                            <li>3-5</li>
+                                        </ul>
+                            </li>
+                        
+                        </ul>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

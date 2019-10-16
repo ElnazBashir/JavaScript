@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+ul {
+    position: absolute;
+    margin: 0;
+    list-style:none;
+    background: rgb(22, 160, 133);
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px;
+   
+    position: relative;
+}
+li:hover {
+    transition-duration: 5s;
+}
+li:hover > ul {
+    display: block;
+}
+ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 10px;
+   
+}
+ul ul li {
+    display: block;
+}
+
+ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: firebrick;
+    margin-top:-5%;
+    margin-left:10%;
+
+}
+/*************
+ * EXTRA CSS
+ *************/
+a{
+  color: #FFF;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px dashed #FFF;
+}
+
+    </style>
+</head>
+<nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Tutoriais</a>
+                <ul>
+                    <li><a href="#">Php</a></li>
+                    <li><a href="#">Java</a></li>
+                  <li><a href="#">SQL</a>
+                                         <ul>
+                                              <li><a href="#">PostgreSQL</a></li>
+                                              <li><a href="#">MySql</a></li>
+                                         </ul>
+                  </li>
+                </ul>
+            </li>
+            <li><a href="#">Redes Sociais</a>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+<body>
+    <div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

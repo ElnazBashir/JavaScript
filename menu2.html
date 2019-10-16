@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body{
+            background-color: rgb(98, 133, 207);
+        }
+      
+        ul {
+         position: absolute;
+         margin: 0;
+            list-style:none;
+            background: rgb(22, 160, 133);
+            padding-left: 0;
+        }
+
+        li {
+           
+            padding: 5px 50px;
+            text-align: center;
+            
+            position: relative;
+            }
+        li:hover{
+                background:rgba(100,100,100,0.4);
+              
+            }
+            ul{
+                border-style: solid;
+            }
+        li:hover > ul {
+            display: block;
+         
+                 }
+   ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 10px;
+    background: lightcoral;
+}
+ul ul li {
+    display: block;
+}
+ul ul ul {
+    position: absolute;
+    top: 0;
+    margin-top:-6%;
+  
+    left:100%;
+    margin-left: 4%;
+    transition-delay: 2s;
+    
+    
+   background: rgb(82, 18, 165);
+}
+ul ul ul ul {
+    position: absolute;
+    top: 0;
+    margin-top:-5%;
+  
+    left:100%;
+    margin-left: 6%;
+    transition-delay: 2s;
+    
+    
+   background: rgb(165, 18, 18);
+}
+li ul{
+    position: absolute;
+    left:100%;
+    top:-10%;
+    position: absolute;
+    transition-delay: 3s;
+ 
+}
+li ul ul{
+    left:100%;
+    top:-10%
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>number1
+                <ul>
+                    <li>item1
+                        <ul>
+                            <li>it1</li>
+                            <li>it2</li>
+                            <li>it3</li>
+                          
+                        </ul>
+                    </li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                    <li>item5
+                            <ul>
+                                    <li>it1</li>
+                                    <li>it2</li>
+                                    <li>it3</li>
+                                    <li>it4</li>
+                                    <li>it5
+                                        <ul>
+                                            <li>in1</li>
+                                            <li>in2</li>
+                                            <li>in3</li>
+                                            <li>in4</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+            <li>number2</li>
+            <li>number3</li>
+            <li>number4</li>
+        </ul>
+    </nav>
+</body>
+</html>

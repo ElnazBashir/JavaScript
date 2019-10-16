@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      body{
+            background: rgb(184, 176, 176);
+            padding-top: 0;
+        }
+   
+     ul{
+     
+       display: flex;
+       flex-direction: column;
+       padding-left: 0em;
+       font-size: .2vw;
+      margin-top: 0;
+       list-style:none;
+       align-items:flex-start;
+       position: relative;
+     
+       
+     
+        }
+        ul ul{
+          border-radius: 5em;
+        }
+        ul li{
+          width: 10em;
+          height: 3em;;
+          font-size: 1vw;
+          background: rgba(137, 43, 226, 0.555);
+         padding-left: 2em;
+          line-height:3em;
+          margin-left: 0em;
+          border: solid ;
+          border-color: rgb(80, 30, 128);
+          color: white
+        
+         
+        }
+        li{
+          font-size: 100vh;
+          width: 1em;
+          height: 3em;
+          background: red;
+          position: relative;
+         
+        }
+        ul li ul{
+          display: none;
+        }
+        li:hover{
+           
+            background: rgba(71, 71, 71, 0.623);
+            cursor: pointer;
+          
+        }
+        ul ul{
+          left: 100%;
+          position: absolute;
+          top:-8%;
+          border-radius: 55em;
+        }
+        li:hover > ul {
+            display: block;
+            font:black;
+             }
+         ul ul ul
+        {
+            position: absolute;
+            top:0%;
+            text-align: center;
+
+        }     
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>کالای دیجیتال<span style="display:inline-block;margin-left:4em;">►</span>
+        <ul>
+          <li>تبلت<span style="display:inline-block;margin-left:7em;">►</span>
+            <ul>
+              <li>سامسونگ</li>
+              <li>اپل</li>
+              <li>هواوی</li>
+
+            </ul>
+          </li>
+          <li>گوشی<span style="display:inline-block;margin-left:6.5em">►</span>
+              <ul>
+                  <li>سامسونگ</li>
+                  <li>اپل</li>
+                  <li>هواوی</li>
+                  
+                </ul>
+          </li>
+          <li>لپ تاپ<span style="display:inline-block;margin-left:6em;">►</span>
+              <ul>
+                  <li>سامسونگ</li>
+                  <li>اپل</li>
+                  <li>هواوی</li>
+                  
+                </ul>
+          </li>
+          <li>ساعت هوشمند<span style="display:inline-block;margin-left:3.7em;">►</span>
+              <ul>
+                  <li>سامسونگ</li>
+                  <li>اپل</li>
+                  <li>هواوی</li>
+                  
+                </ul>
+          </li>
+        </ul>
+      </li>
+      <li>لوازم برقی<span style="display:inline-block;margin-left:5em;">►</span>
+        <ul>
+          <li>سشوار</li>
+          <li>اتومو</li>
+          <li>بیگودی</li>
+          <li>مسواک برقی</li>
+        </ul>
+      </li>
+      <li>پوشاک<span style="display:inline-block;margin-left:6.3em;">►</span>
+        <ul>
+          <li>زنانه<span style="display:inline-block;margin-left:7em;">►</span>
+            <ul>
+              <li>مانتو</li>
+              <li>شلوار</li>
+              <li>شلوار</li>
+              
+            </ul>
+          </li>
+          <li>مردانه<span style="display:inline-block;margin-left:6.5em;">►</span>
+            <ul>
+                <li>تی شرت</li>
+                <li>پلو شرت</li>
+                <li>پیراهن</li>
+                <li>شلوار</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>عطر،ادکلن،اسپری</li>
+      <li>طلا،نقره ،زیورآلات</li>
+    </ul>
+  </nav>
+  
+</body>
+</html>

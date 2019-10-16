@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+ body{
+     background: silver;
+ }
+        .wrapper {
+           
+             display: flex;
+            
+             font-size:100vh;
+            
+             align-items: center;
+             flex-direction:center;
+            
+             justify-content: center;
+                 }
+        .column {
+           
+                display: flex;
+                box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
+                flex-direction: column;
+                background-color: white;
+                font-size:1vh;
+                padding: 5em 2em .9em 2em;
+               
+                border-radius: 10%;
+              
+                }
+        #speaker{
+            position: relative;
+            font-size:.5vh;
+                color: white;
+                background: black;
+                width: 10em;
+                margin-left:22em;
+                margin-right:7em;
+                padding-left: .1em;
+                padding-top: 1em;
+                border-radius: .2%;
+                flex: 1;
+
+        }
+        #screen{
+            position: relative;
+            font-size:2vh;
+                color: white;
+                background:rgb(48, 47, 53);
+                margin-top:.3em;
+                width: 10em;
+                height: 400em;
+             
+                padding:13em 2em;
+                border-radius: 3px;
+                flex: 1;
+
+
+        }
+        #bottom{
+            font-size:.5vh;
+               
+                background: white;
+                margin-top:.5em;
+                width: 10em;
+                height: 400em;
+                margin-left:22em;
+             
+                padding:5em 0.1em 5em 0.1em;
+                border-radius: 3px;
+                border-color:sandybrown;
+                border-style: solid;
+                flex: 1;
+
+
+        }
+        #shadow{
+           
+            height:1em;
+            padding-left: 2em;
+            font-size: 2vw;
+            left: 35%;
+            top:55%;
+            bottom: 2em;
+            
+            background: rgba(43, 42, 42, 0.493);
+            background-image: linear-gradient(to bottom, rgba(46, 43, 43, 0),rgba(109, 103, 103, 0.555)); 
+            transform: skewx(60deg);
+          
+            z-index: 0;
+           
+            z-index: -1;
+            position: absolute;
+            font-size:5vw;
+            
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="wrapper">
+
+                <div class="column">
+                        <div id="speaker"></div>
+                        <div id="screen"></div>
+                        <div id="bottom"></div>
+                        <div id="shadow"></div>
+                       
+                 </div>
+                 
+
+
+        </div>
+    </body>
+</html>
